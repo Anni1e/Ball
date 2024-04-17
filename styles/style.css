@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(151deg, #8e2de2 0%, hotpink 100%);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  padding: 0 auto;
+}
+
+/* .start {
+  display: block;
+  width: 300px;
+  height: 80px;
+  border-radius: 30px;
+  border: #b22de2;
+  background: #b22de2;
+  opacity: 0.5;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  transition: 0.4s;
+}
+.start:hover {
+  background: white;
+  opacity: 0.3;
+  color: #b22de2;
+} */
+
+.ball {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.historyClick {
+  position: absolute;
+  width: 300px;
+  height: 100vh;
+  background-color: aliceblue;
+  opacity: 0.4;
+  right: 0;
+  padding: 65px 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.historyClick p {
+  font-weight: 400;
+  line-height: 55px;
+  border: 1px #000000 solid;
+  background: #000000;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.startOver {
+  position: absolute;
+  z-index: 10;
+  top: 18px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.averageResult {
+  position: absolute;
+  text-align: center;
+  width: 170px;
+  right: 63px;
+  color: white;
+  font-weight: 200;
+  top: 15px;
+  font-size: 20px;
+}
+.bestResult {
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 90px;
+  border: 1px rgb(242, 197, 220) solid;
+  background: hotpink;
+  border-radius: 50%;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.bestResult:hover {
+  right: 25px;
+  width: 250px;
+}
+.currentResult:hover {
+  right: 25px;
+  width: 250px;
+}
+.cursor {
+  z-index: 10;
+  position: absolute;
+  right: 240px;
+  top: 18px;
+  width: 40px;
+  height: 40px;
+}
+.currentResult {
+  transition: 0.5s;
+  bottom: 140px;
+  right: 50px;
+  position: absolute;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 90px;
+  border: 1px #d5b2f2 solid;
+  background: #8e2de2;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.d-none {
+  display: none;
+}
