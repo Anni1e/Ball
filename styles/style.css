@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 body {
   background: linear-gradient(151deg, #8e2de2 0%, hotpink 100%);
@@ -10,25 +11,6 @@ body {
   height: 100vh;
   padding: 0 auto;
 }
-
-/* .start {
-  display: block;
-  width: 300px;
-  height: 80px;
-  border-radius: 30px;
-  border: #b22de2;
-  background: #b22de2;
-  opacity: 0.5;
-  color: white;
-  font-size: 24px;
-  font-weight: 300;
-  transition: 0.4s;
-}
-.start:hover {
-  background: white;
-  opacity: 0.3;
-  color: #b22de2;
-} */
 
 .ball {
   display: block;
@@ -88,7 +70,7 @@ body {
   bottom: 25px;
   right: 50px;
   width: 200px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   color: white;
   font-weight: 700;
@@ -117,15 +99,15 @@ body {
 }
 .currentResult {
   transition: 0.5s;
+  line-height: 90px;
   bottom: 140px;
   right: 50px;
   position: absolute;
   width: 200px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   color: white;
   font-weight: 700;
-  line-height: 90px;
   border: 1px #d5b2f2 solid;
   background: #8e2de2;
   border-radius: 50%;
