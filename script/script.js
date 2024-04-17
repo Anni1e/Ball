@@ -19,7 +19,7 @@ cursor.addEventListener("click", () => {
   } else if (nameCursor == 10) {
     nameCursor -= 9;
   }
-  const urlCursor = `../src/img/octopus${nameCursor}.png`;
+  const urlCursor = `./src/img/octopus${nameCursor}.png`;
   body.style.cursor = `url(${urlCursor}), auto`;
 });
 
